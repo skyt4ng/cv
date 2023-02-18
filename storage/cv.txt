@@ -1,0 +1,45 @@
+PROFESSIONAL EXPERIENCE
+
+Top Glove Sdn Bhd, Factory 23, Ipoh, Perak (November 2020 to Today)
+Joined largest glove manufacturer in the world, as Engineer position in Production department, specializing in manufacturing, supply and distribution of polymer powder-free textured gloves. Played major role in core manufacturing department as:
+ 
+An Engineer:
+	1. Reported to Manufacuring Managers in execute engineering improvement projects  
+	2. 
+	3. Self-learning PLC Programming Language (Ladder Diagram and Structured Text language) 
+	4. Converted production board to smartboard TV accessible from anywhere by self-written HTML and CSS language with Google Sheet Embedded
+	5. Minimized workload and mistakes at compounding department by creating online chemical calculator with Javascript programming language
+6. 
+
+
+SCADA Electronics 
+
+
+Digitalize 60% of manual hand-wrtitten documents ( in production department to Microsoft Excel and Google Form
+
+A Manufacturing Line PIC:
+	1. Maximised output of production line to achieve target output KPI setting
+	2. Carried out adhoc troubleshooting with supervisors and leaders on glove and defects on-site to ensure good quality products
+	3. Conducted production whiteboard planning with major department (i.e. Compounding, Packing) weekly on Monday or on adhoc discussion urgent matters
+	4. Worked with Former department to maintain ceramic formers (glove dipping rice bowl)at 99.0% cleanliness
+	5. Focused Total Preventative Department (TPM) with Maintenance department to improve and achieve 93.0% production line uptime (December 2023) compared to 
+	6. Controlled manufacturing cost by carton (CPC) by boosting output while focused in reducing consumption of raw material (Latex), cleaning reagent and natural gas 
+	7.  Performed and lead mass scale trial run at production line with Research & Development (R&D) team
+
+
+
+
+
+A Production Staff
+	1.  Ensure product output meets International Standard
+			ASTM(XXX)
+
+	2. Monitor production department 
+		- ISO 9001	Quality Management System (QMS)
+		- ISO 14001	Environmental 
+
+	3. Take part as Emergency Response Team (ERT) and First Aid Team
+
+	4.Involvement in Factory Audit (Sirim Audit BRC audit) 
+
+	5. Attended workers’ problem, such as attendance, OT arrangement during PH, 
