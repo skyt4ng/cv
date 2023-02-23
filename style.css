@@ -1,0 +1,10 @@
+body {
+  line-height: 1.5em;
+  background-image:url('bg.jpg');
+  background-repeat:no-repeat;
+}
+
+#work {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
