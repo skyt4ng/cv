@@ -1,10 +1,10 @@
 body {
-  line-height: 1.5em;
-  background-image:url('bg.jpg');
-  background-repeat:no-repeat;
-  background-size:cover;
+  line-height: 1.7em;
+  background-image: url('bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
   background-attachment: fixed;
+  text-align: justify;
+  text-justify: inter-word;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-
-
