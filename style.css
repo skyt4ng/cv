@@ -12,7 +12,6 @@ body {
 ol {
   list-style: none;
   counter-reset: awesome-counter;
-  margin: 20px 100px 20px 50px;
   list-style-position: inside;
   padding-left: 1em;
   text-indent: -2em;
@@ -76,7 +75,13 @@ ol ol li.prod::before {
 
 
 
-@media only screen and (min-width : 0px) and (max-width : 1000px) {}
+@media only screen and (min-width : 0px) and (max-width : 1000px) {
+
+ol {
+  margin: 0px 0px 0px 0px;
+}
+
+}
 
 @media only screen and (min-width: 1000px) {
 
@@ -103,5 +108,9 @@ ol ol li.prod::before {
 
   #header {
     text-align: center;
+  }
+
+  ol {
+    margin: 20px 100px 20px 50px;
   }
 }
