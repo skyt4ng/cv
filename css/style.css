@@ -1,6 +1,11 @@
+:visited {
+  color: #9100c6c2;
+  text-decoration: none;
+}
+
+
 body {
-  line-height: 1.8em;
-  background-image: url('bg.jpg');
+  background-image: url('../img/bg.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -9,27 +14,26 @@ body {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-:visited{
-  color: #9100c6c2;
-  text-decoration:none;
-}
+
 
 #contacts {
   text-align: center;
   font-size: 3em;
-  float:unset;
-  padding: 40px;
+  float: unset;
+  padding: 3px;
   position: -webkit-sticky;
   position: sticky;
   top: 0;
   z-index: 1;
 }
 
-a{
-  text-decoration:none;
+a {
+  text-decoration: none;
 }
 
-
+#tg{
+  text-align:center;
+}
 
 
 
