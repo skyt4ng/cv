@@ -1,110 +1,17 @@
-:visited {
-  color: #9100c6c2;
-  text-decoration: none;
-}
-
-
 body {
   background-image: url('../img/bg.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  text-align: justify;
-  text-justify: inter-word;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-
-
-#contacts {
+#name {
   text-align: center;
-  font-size: 3em;
+  font-size: 5em;
   float: unset;
-  padding: 3px;
+  padding: 1px;
   position: -webkit-sticky;
   position: sticky;
   top: 0;
   z-index: 1;
-}
-
-a {
-  text-decoration: none;
-}
-
-#tg{
-  text-align:center;
-}
-
-
-
-
-
-
-
-ol {
-  list-style: none;
-  counter-reset: awesome-counter;
-  list-style-position: inside;
-  padding-left: 1em;
-  text-indent: -2em;
-
-}
-
-li {
-  counter-increment: awesome-counter;
-}
-
-li::before {
-  content: counter(awesome-counter);
-  width: 1rem;
-  height: 1rem;
-  border-radius: 50%;
-  display: inline-block;
-  line-height: 1rem;
-  color: white;
-  text-align: center;
-  margin-right: 1rem;
-  position: relative;
-  text-indent: 0em;
-
-}
-
-#engineer {
-  margin: auto;
-}
-
-
-.workposition {
-  text-align: center;
-  display: inline;
-}
-
-
-li.eng::before {
-  background: #5b67d7;
-}
-
-ol ol li.eng::before {
-  background: #5bd7cb;
-}
-
-li.linepic::before {
-  background: #4dcb47;
-}
-
-li.prod::before {
-  background: #ff4e4e;
-}
-
-ol ol li.prod::before {
-  background: #fea3a3;
-}
-
-
-li.edu::before {
-  background: #fdaa10;
-}
-
-ol ol li.edu::before {
-  background: #fbff00;
 }
