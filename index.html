@@ -10,41 +10,48 @@
         crossorigin="anonymous"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="js/date.js"></script>
+
     <title>Sky</title>
 </head>
 
-<body>
+<body class="text-justify">
     <div class="container" id="contacts">
         <h1 id="name">SKY T.</h1>
         <a id="email" href="mailto:sky.t4ng@gmail.com">📧</a>
         <a id="phone" href="callto:+60165449678">📞</a>
     </div>
+    <div class="container">Welcome, <span id="time"></span></div>
     <div class="container" id="work">
-        <h1 id="professionalexperience">Professional Experience</h1>
+        <h2 id="professionalexperience" class="bg-info">PROFESSIONAL EXPERIENCE</h2>
         <div class="container" id="work1">
             <div class="container" id="tg">
-                <p1 id="worktitle">ENGINEER, PRODUCTION👷🛠️</p1><br>
-                <p2 id="workcompany"> TOP GLOVE SDN BHD<br>
-                    FACTORY 23🏭,</p2>
-                <span id="workduration"><br>
-                    November 2020 to
-                    Today</span><br>
+                <h3 id="worktitle" class="text-primary">ENGINEER, PRODUCTION</h3>
+                <h4 id="workcompany"> TOP GLOVE SDN BHD<small>
+                        FACTORY 23</small></h4>
+                <span id="duration" style="font-size:2em"></span> Days since <span id="workduration">
+                    2<sup>nd</sup> November 2020</span>
+
             </div>
-            <p1 id="workcompanyintro">
-                Joined largest glove manufacturer in the world, as Engineer position in Production department,
-                specializing in manufacturing, supply and distribution of polymer powder-free textured gloves.<br>Played
-                major role in core manufacturing department as:</p1><br>
+            <p id="workcompanyintro">
+
+            <blockquote>Joined largest glove manufacturer in the world, as Engineer position in Production department,
+                specializing in manufacturing, supply and distribution of polymer powder-free textured gloves.
+            </blockquote>
+            Played
+            major role in core manufacturing department as:</p>
         </div>
         <div class="container" id="engineer">
-            <p1 class="workposition">As an Engineer</p1>
+            <h5 class="workposition">As an Engineer</h5>
             <ol>
                 <li class="eng">Reported to Manufacturing Managers and Senior Engineers in execute engineering
                     improvement projects,
                     including:
                     <ol>
-                        <li class="eng"><a href="img/polymer.jpg">Polymer Timer Mini Pump Project</a></li>
-                        <li class="eng"><a href="img/airreceiver.jpg">Air Receiver Compressor Pressure Monitoring
-                                Project</a></li>
+                        <li class="eng">Polymer Timer Mini Pump Project<img src="img/polymer.jpg" class="img-thumbnail"
+                                img-responsive></li>
+                        <li class="eng">Air Receiver Compressor Pressure Monitoring
+                            Project<img src="img/airreceiver.jpg" class="img-thumbnail"></li>
                         <li class="eng"><a href="img/magnet.jpg">Magnetic Holder Dirt Removal Project</a></li>
                         <li class="eng">Alkaline Tanks Level Floater Project</a></li>
                     </ol>
@@ -90,7 +97,7 @@
         </div>
         <div class="container" id="workline">
 
-            <p1 class="workposition">As a Manufacturing Line PIC</p1>
+            <h5 class="workposition">As a Manufacturing Line PIC</h5>
             <ol>
                 <li class="linepic">Maximized output of production line to achieve target output KPI setting.</li>
                 <li class="linepic">Carried out adhoc troubleshooting with supervisors and leaders on glove and defects
@@ -116,7 +123,7 @@
             </ol>
         </div>
         <div class="container" id="workstaff">
-            <p1 class="workposition">As a Production Staff</p1>
+            <h5 class="workposition">As a Production Staff</h5>
             <ol>
                 <li class="prod">Ensured quality product output to meet AQL and International Standards:
                     ASTM D3578 Standard Specification for Rubber Examination Gloves
@@ -158,11 +165,11 @@
         </div>
     </div>
     <div class="container" id="education">
-        <h1 id="educationtitle">Education in a Glance</h1>
+        <h2 id="educationtitle" class="bg-info">EDUCATION IN A GLANCE</h2>
         <ol>
             <li class="edu">
-                <p1 id="educationuni">Universiti Sains Malaysia (USM) Engineering Campus</p1>
-                <p2 id="educationcourse">Bachelor of Engineering (Chemical Engineer) with Honors, CGPA 3.63</p2>
+                <p id="educationuni">Universiti Sains Malaysia (USM) Engineering Campus</p>
+                <p id="educationcourse">Bachelor of Engineering (Chemical Engineer) with Honors</p>
                 <ol>
                     <li class="edu">Final Year Project, Adsorption of Heavy Metal Ion using Activated Carbon
                     <li class="edu">Plant Design Analysis and Operation Production of Methyl Tert-Butyl Ether (MTBE)
@@ -174,13 +181,13 @@
                         Thermodynamics, Fluid Flow</li>
                 </ol>
             <li class="edu">
-                <p1 id="educationstpm">Sijil Tinggi Persekolahan Malaysia (STPM) St. Michael Institution (SMI), Ipoh
-                </p1><br>
-                <p1 id="educationstpm">Science Physics Stream CGPA 3.75</p1>
+                <p id="educationstpm">Sijil Tinggi Persekolahan Malaysia (STPM) St. Michael Institution (SMI), Ipoh
+                </p>
+                <p id="educationstpm">Science Physics Stream</p>
             </li>
             <li class="edu">
-                <p1 id="educationform5">SPM, SMK Amminuddin Baki Chemor 11A</p1><br>
-                <p1 id="educationform5 smkabc">Science Stream + Accounting</p1>
+                <p id="educationform5">SPM, SMK Amminuddin Baki Chemor</p>
+                <p id="educationform5 smkabc">Science Stream + Accounting</p>
             </li>
         </ol>
     </div>
