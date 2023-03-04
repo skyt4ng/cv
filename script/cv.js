@@ -1,5 +1,5 @@
 window.onload = function () {
-    removeFadeOut(document.getElementById('welcome'), 5000);
+    removeFadeOut(document.getElementById('welcome'), 3000);
     datetime();
 }
 
