@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LATEX TSC CALCULATOR</title>
+    <script src="obj.js"></script>
+    <link type="text/css" rel="stylesheet" href="tg.css">
+</head>
+
+<body>
+    </head>
+
+    <body>
+        <div id="top">
+            <h3>LATEX TSC CALCULATOR</h3>
+
+        </div>
+        <div id="left">
+            <div id="cal1">
+                <h3>1. Select latex to be compounded</h3>
+                <button class="NUSA USA1" onclick="USA1high();calculate()">USA T1 TSC HIGH</button>
+                <button class="NUSA USA1" onclick="USA1normal();calculate()">USA T1 TSC NORMAL</button>
+                <button class="NUSA USA1" onclick="USA1low();calculate()">USA T1 TSC LOW</button>
+                <button class="NUSA USA2" onclick="USA2();calculate()">USA T2</button>
+                <button class="NUSA" onclick="NUSAhigh();calculate()">NUSA TSC HIGH</button>
+                <button class="NUSA" onclick="NUSAnormal();calculate()">NUSA TSC NORMAL</button>
+                <button class="NUSA" onclick="NUSAlow();calculate()">NUSA TSC LOW</button>
+                <p>Latex TSC :<strong id="addlatex.latex_tsc"></strong></p>
+            </div>
+            <div id="cal2">
+                <h3>2. Select number of running lines</h3>
+                <p>Running lines
+                    <input id="running_lines" type="number" id="quantity" name="quantity" min="1" max="10"
+                        placeholder="11" onchange="calculate();check()">
+                </p>
+            </div>
+            <div id="cal3">
+                <h3>3. Key in balance latex total</h3>
+                <p>Balance Latex Total (kg)
+                    <input id="balance_latex_total" type="number" onchange="calculate();check()" placeholder="5000">
+                </p>
+            </div>
+
+        </div>
+        <div id="right">
+            <h3>4. Chemical to be added</h3>
+            <p>60% Latex (kg)<strong id="addlatex.total_60latexkg"></strong></p>
+            <p>chemical3 (kg)<strong id="addlatex.chemical3_kg"></strong></p>
+            <p>chemical1 (kg)<strong id="addlatex.chemical1_kg"></strong></p>
+            <p>chemical2 (kg)<strong id="addlatex.chemical2_kg"></strong></p>
+            <p>chemical4 (kg)<strong id="addlatex.chemical4_kg"></strong></p>
+            <p>chemical5 (kg)<strong id="addlatex.chemical5_kg"></strong></p>
+            <p>chemical6 (kg)<strong id="addlatex.chemical6_kg"></strong></p>
+            <p>chemical7 (kg)<strong id="addlatex.chemical7_kg"></strong></p>
+
+            <p>Water (kg)<strong id="addlatex.water"></strong></p>
+            <p4>by sk</p4>
+        </div>
+
+    </body>
+
+</html>
