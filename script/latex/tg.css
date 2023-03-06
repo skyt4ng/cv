@@ -1,0 +1,483 @@
+/* General */
+
+body {
+  background-image: url('tg.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+h2 {
+  text-align: center;
+  border-radius: 8px;
+  border: 0.5px solid #000000;
+  background-color: #ffffff;
+  background-color: #f1fbab;
+}
+
+em {
+  text-indent: 10em;
+  font-weight: bold;
+  font-size: 1.5em;
+  background-color: #FFFFFF;
+
+}
+
+
+/* Dipping tanks */
+.l1 {
+  background-color: #ff0000;
+  border: 0.5px solid #000000;
+  color: #000000;
+  padding: 0.5px 0.5px;
+  border-radius: 8px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.l1:hover {
+  background-color: #9E9E9E;
+}
+
+.l3 {
+  background-color: #ff7c02;
+}
+
+.l3:hover {
+  background-color: #9E9E9E;
+}
+
+.l5 {
+  background-color: #48ff00;
+}
+
+.l5:hover {
+  background-color: #9E9E9E;
+}
+
+.l7 {
+  background-color: #00a2ff;
+}
+
+.l7:hover {
+  background-color: #9E9E9E;
+}
+
+.l9 {
+  background-color: #000000;
+  color: white
+}
+
+.l9:hover {
+  background-color: #9E9E9E;
+}
+
+.latex {
+  background-color: #e8b7ec;
+  border: 0.5px solid #000000;
+  color: #000000;
+  border-radius: 8px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.latex:hover {
+  background-color: #9E9E9E;
+}
+
+.leaching {
+  background-color: #92d7ee;
+}
+
+.leaching:hover {
+  background-color: #9E9E9E;
+}
+
+.dipping {
+  background-color: #f0b75d;
+}
+
+.dipping:hover {
+  background-color: #9E9E9E;
+}
+
+.cleaning {
+  background-color: #85f085;
+}
+
+.cleaning:hover {
+  background-color: #9E9E9E;
+}
+
+.cleaning2 {
+  background-color: #85f085;
+}
+
+.cleaning2:hover {
+  background-color: #9E9E9E;
+}
+
+/* Former Changing */
+
+
+.gpt {
+  background-color: #98ed9b;
+  border: 0.5px solid #000000;
+  color: #000000;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.gpt:hover {
+  background-color: #9E9E9E;
+}
+
+.xss {
+  background-color: #7dd22ed1;
+}
+
+.s {
+  background-color: #ebb6b6;
+}
+
+.ss {
+  background-color: #eb8181cf;
+}
+
+.m {
+  background-color: #75d5e9;
+}
+
+.ms {
+  background-color: #67a8ee;
+}
+
+.l {
+  background-color: #fded8e;
+}
+
+.ls {
+  background-color: #e6d241;
+}
+
+.xl {
+  background-color: #d2cdc8;
+}
+
+.xls {
+  background-color: #9f9e9a;
+}
+
+.row {
+  background-color: #98ed9b;
+  border: 0.5px solid #000000;
+  color: #000000;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.row:hover {
+  background-color: #9E9E9E;
+}
+
+.lb {
+  background-color: #ffee00;
+  border: 0.5px solid #000000;
+  color: #000000;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.lb:hover {
+  background-color: #9E9E9E;
+}
+
+.cb {
+  background-color: #00fff2;
+}
+
+.cb:hover {
+  background-color: #9E9E9E;
+}
+
+.beading {
+  background-color: #ff6868;
+}
+
+.beading:hover {
+  background-color: #9E9E9E;
+
+}
+
+.fc {
+  display: none
+}
+
+
+nav {
+  background-color: #efe5d0;
+  margin: 10px 10px 0px 10px;
+}
+
+nav ul {
+  margin: 0px;
+  list-style-type: none;
+  padding: 5px 0px 5px 0px;
+}
+
+nav ul li {
+  display: inline;
+  padding: 5px 10px 5px 10px;
+}
+
+nav ul li a:link,
+nav ul li a:visited {
+  color: #954b4b;
+  border-bottom: none;
+  font-weight: bold;
+}
+
+nav ul li.selected {
+  background-color: #c8b99c;
+}
+
+
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-width : 0px) and (max-width : 1000px) {
+
+  .l1 {
+    font-size: 100px;
+    width: 49%;
+    height: 200px;
+    margin-bottom: 0.1em
+  }
+
+  h2 {
+    text-align: center;
+    font-size: 40px;
+    border: 0.5px solid #000000;
+  }
+
+  .latex {
+    font-size: 40px;
+    width: 32%;
+    height: 200px;
+    margin-bottom: 0.1em
+  }
+
+  .gpt {
+    font-size: 100px;
+    width: 49%;
+    height: 200px;
+  }
+
+  .row {
+    font-size: 100px;
+    width: 49%;
+    height: 500px;
+  }
+
+  .row:hover {
+    background-color: #9E9E9E;
+  }
+
+  .lb {
+    font-size: 100px;
+    margin: 4px 2px;
+    width: 49%;
+    height: 250px;
+  }
+
+  .cb {
+    width: 99%;
+    height: 200px;
+  }
+
+  .beading {
+    height: 200px;
+  }
+}
+
+/* Desktops and laptops ----------- */
+@media only screen and (min-width: 1000px) {
+  .l1 {
+    font-size: 0.9em;
+    margin: 0.5px 0.5px;
+    width: 100%;
+    height: 35px;
+  }
+
+  #line {
+    position: fixed;
+    right: 0px;
+    height: 1000px;
+    width: 70px;
+    margin: 0px 10px 0px 0px;
+    border: #000000;
+    border-width: 2px;
+  }
+
+  #all {
+    margin: 0px 90px 0px 0px;
+  }
+
+  /*
+  #l1d {
+    padding: 80px 10px 10px 900px;
+    z-index: -1;
+    position: absolute;
+    background-color: #DDDDDD;
+    font-size:50px;
+  }
+*/
+
+  h2 {
+    font-size: 1em;
+  }
+
+  .latex {
+    font-size: 0.8em;
+    width: 15%;
+    height: 80px;
+    margin: 0.1em
+  }
+
+  .gpt {
+    font-size: 10px;
+    width: 19%;
+    height: 20px;
+  }
+
+  .row {
+    font-size: 100px;
+    width: 49%;
+    height: 500px;
+  }
+
+  .lb {
+    font-size: 10px;
+    margin: 4px 2px;
+    width: 19%;
+    height: 20px;
+  }
+
+  .cb {
+    width: 99%;
+    height: 20px;
+  }
+
+  .beading {
+    height: 20px;
+  }
+
+  footer {
+    text-align: center;
+    background-color: #ffcd9f;
+    opacity: 0.8;
+    border-radius: 1px;
+    border-width: 10px #000000;
+    margin: 0px 90px 0px 0px;
+  }
+}
+
+/* Dipping tank Ends here */
+
+/*for latex TSC calculator*/
+
+#left {
+  width: 48%;
+  float: left;
+  margin-right: auto;
+}
+
+#right {
+  width: 48%;
+  position: fixed;
+  float: right;
+  right: 0px;
+  border: width 1px;
+  border-style: solid;
+  border-color: #000000;
+  border-radius: 10px;
+  padding: 2px;
+  margin: auto;
+  height: auto;
+}
+
+#top {
+  position: sticky;
+  z-index: 1;
+}
+
+#cal1 {
+  border-style: solid;
+  border-radius: 1em;
+  margin: 2px;
+  padding: 2px;
+}
+
+#cal2 {
+  border-style: solid;
+  border-radius: 1em;
+  margin: 2px;
+  padding: 2px;
+}
+
+#cal3 {
+  border-style: solid;
+  border-radius: 1em;
+  margin: 2px;
+  padding: 2px;
+}
+
+h3 {
+  background-color: #ffffff;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+strong {
+  float: right;
+  margin: 0px 20px 0px 0px;
+  font-size: 1.1em;
+}
+
+input {
+  text-align: center;
+}
+
+.NUSA {
+  width: 99%;
+  text-align: left;
+  margin: 1px;
+  padding: 5px;
+  background-color: #7ff9d6;
+}
+
+.USA1 {
+  background-color: rgb(255, 128, 255);
+}
+
+.USA2 {
+  background-color: rgb(226, 252, 120);
+}
+
+p4 {
+  font-size: 0.2em;
+  text-align: center;
+}
+
+#balance_latex_total {
+  width: 90%;
+}
