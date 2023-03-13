@@ -5,20 +5,23 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
         crossorigin="anonymous"></script>
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+
     <script src="script/cv.js"></script>
-    <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
-    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
+
     <link type="text/css" rel="stylesheet" href="css/style.css">
 
     <link rel="icon" type="image/x-icon" href="img/favicon.png">
 
-    <title>Sky</title>
+    <title>SKY</title>
 
 </head>
 
@@ -103,8 +106,29 @@
                                     onmouseover="this.src='img/polymer_topup_internal.jpg'"
                                     onmouseout="this.src='img/polymer_topup_timer.jpg'"
                                     class="img-thumbnail img-responsive ">
-                                Polymer Timer Mini
-                                Pump (24VDC, Omron H3CR Relay Timer)
+
+                                <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                    data-bs-target="#polymer">
+                                    Polymer Timer Mini
+                                    Pump (24VDC, Omron H3CR Relay Timer)
+                                </button>
+
+
+                                <div class="modal fade" id="polymer" tabindex="-1" aria-labelledby="polymer"
+                                    aria-hidden="true">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="polymer"></h5>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                    aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                work in progress: insert Polymer ROI
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
 
                             </div>
 
@@ -112,22 +136,86 @@
 
                                 <img src="img/airreceiver.jpg" onmouseover="this.src='img/airreceiver_internal.jpg'"
                                     onmouseout="this.src='img/airreceiver.jpg'" class="img-thumbnail img-responsive">
-                                Air Receiver Pressure
-                                Monitoring (Omron E5CC, Autonics PSS)
 
+                                <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                    data-bs-target="#airreceiver">
+                                    Air Receiver Pressure
+                                    Monitoring (Omron E5CC, Autonics PSS)
+                                </button>
+
+
+                                <div class="modal fade" id="airreceiver" tabindex="-1" aria-labelledby="airreceiver"
+                                    aria-hidden="true">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="airreceiver"></h5>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                    aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                work in progress: insert airreceiver ROI
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
 
                             <div class="col-xs-6 col-md-3 bg-white text-dark border border-info rounded">
 
                                 <img src="img/magnet.jpg" class="img-thumbnail img-responsive">
-                                Magnetic Holder Dirt Removal
+
+                                <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                    data-bs-target="#magnetholder">
+                                    Magnetic Holder Dirt Removal
+                                </button>
+
+                                <div class="modal fade" id="magnetholder" tabindex="-1"
+                                    aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="magnetholder"></h5>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                    aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                work in progress: insert DIRT DPM graph here
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+
 
                             </div>
 
                             <div class="col-xs-6 col-md-3 bg-white text-dark border border-info rounded">
 
                                 <img src="img/floater.jpg" class="img-thumbnail img-responsive">
-                                Alkaline Tanks Level Floater
+
+                                <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                                    data-bs-target="#alkaline">
+                                    Alkaline Tanks Level Floater
+                                </button>
+
+
+                                <div class="modal fade" id="alkaline" tabindex="-1" aria-labelledby="alkaline"
+                                    aria-hidden="true">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="magnetholder"></h5>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                    aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                work in progress: insert WT DPM graph here
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
 
                             </div>
 
@@ -231,7 +319,7 @@
 
                                 <img src="img/former_html.jpg" class="img-thumbnail img-responsive">
 
-                                <a href="form/former.html">Mobile Form
+                                <a href="form/former.html">Mobile form
 
                                 </a>
                             </div>
@@ -243,7 +331,7 @@
 
                                 <img src="img/production_googleform.jpg" class="img-thumbnail img-responsive">
 
-                                <a href="form/prod.html">Mobile Form
+                                <a href="form/prod.html">Desktop/Mobile form
 
                                 </a>
                             </div>
@@ -297,7 +385,8 @@
                 <ol class="list-group list-group-item-action list-group-numbered">
 
                     <li class="list-group-item">Maximized output of production line to achieve target output KPI
-                        setting, by reducing scrap percentage from 2.29% (Nov 20) to 0.84% (Feb 23).
+                        setting, by reducing scrap percentage from <span class="fw-bold">2.29% (Nov 20)</span> to <span
+                            class="fw-bold">0.84% (Feb 23)</span>.
                     </li>
                     <li class="list-group-item">Carried out adhoc troubleshooting with supervisors and leaders on glove
                         and
@@ -309,7 +398,8 @@
                         bowl) at 99.0% cleanliness.</li>
                     <li class="list-group-item">Focused Total Preventative Maintenance (TPM) with Maintenance department
                         to
-                        improve and achieve 93.0% production line uptime (December 2022).</li>
+                        improve and achieve <span class="fw-bold">93.0% uptime</span> production line (December 2022).
+                    </li>
                     <li class="list-group-item">Controlled manufacturing cost by carton (CPC) by boosting output while
                         focused
                         in reducing consumption of raw material (Latex), cleaning reagent and natural gas.</li>
@@ -475,7 +565,7 @@
                                     <path
                                         d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z" />
                                 </svg></td>
-                            <td></td>
+                            <td>MUET BAND 5</td>
                         </tr>
 
                         <tr>
@@ -538,7 +628,7 @@
                                     <path
                                         d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z" />
                                 </svg></td>
-                            <td>JLPT N3 Qualification</td>
+                            <td>JLPT N3</td>
                         </tr>
                     </table>
                 </div>
@@ -597,7 +687,7 @@
                             </li>
                         </ol>
                     <li class="list-group-item">
-                        <p class="display-4">St. Michael Institution (SMI), Ipoh</p>
+                        <p class="display-5">St. Michael Institution (SMI), Ipoh</p>
                         <ol class="list-group list-group-item-action">
                             <li class="list-group-item">
                                 STPM: Science Physics Stream</li>
