@@ -17,6 +17,9 @@
 
     <script src="script/cv.js"></script>
 
+    <script src="
+    https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+
     <link type="text/css" rel="stylesheet" href="css/style.css">
 
     <link rel="icon" type="image/x-icon" href="img/favicon.png">
@@ -124,7 +127,40 @@
                                                     aria-label="Close"></button>
                                             </div>
                                             <div class="modal-body">
-                                                work in progress: insert Polymer ROI
+
+                                                <canvas id="dbDPM"></canvas>
+
+                                                <script>
+
+                                                    var xValues = ["Nov 2020", "Feb 2023"];
+                                                    var yValues = [31004, 13640];
+                                                    var barColors = ["red", "green"];
+
+                                                    new Chart("dbDPM", {
+                                                        type: "bar",
+                                                        data: {
+                                                            labels: xValues,
+                                                            datasets: [{
+                                                                backgroundColor: barColors,
+                                                                data: yValues
+                                                            }]
+                                                        },
+                                                        options: {
+                                                            legend: { display: false },
+                                                            title: {
+                                                                display: true,
+                                                                text: "Reduction of 56% of Defect Beading DPM"
+                                                            },
+                                                            scales: {
+                                                                y: {
+                                                                    Min: 0,
+                                                                    suggestedMax: 20000
+                                                                }
+                                                            }
+                                                        }
+                                                    });
+                                                </script>
+
                                             </div>
                                         </div>
                                     </div>
@@ -154,7 +190,8 @@
                                                     aria-label="Close"></button>
                                             </div>
                                             <div class="modal-body">
-                                                work in progress: insert airreceiver ROI
+                                                <p>Project Cost: RM 4,375</p>
+                                                <p>Estimated ROI: 0.178 month</p>
                                             </div>
                                         </div>
                                     </div>
@@ -180,7 +217,40 @@
                                                     aria-label="Close"></button>
                                             </div>
                                             <div class="modal-body">
-                                                work in progress: insert DIRT DPM graph here
+
+                                                <canvas id="dirtDPM"></canvas>
+
+                                                <script>
+
+                                                    var xValues = ["Nov 2020", "Feb 2023"];
+                                                    var yValues = [21024, 11448];
+                                                    var barColors = ["red", "green"];
+
+                                                    new Chart("dirtDPM", {
+                                                        type: "bar",
+                                                        data: {
+                                                            labels: xValues,
+                                                            datasets: [{
+                                                                backgroundColor: barColors,
+                                                                data: yValues
+                                                            }]
+                                                        },
+                                                        options: {
+                                                            legend: { display: false },
+                                                            title: {
+                                                                display: true,
+                                                                text: "Reduction of 46% Dirt Defects DPM"
+                                                            },
+                                                            scales: {
+                                                                y: {
+                                                                    Min: 0,
+                                                                    suggestedMax: 20000
+                                                                }
+                                                            }
+                                                        }
+                                                    });
+                                                </script>
+
                                             </div>
                                         </div>
                                     </div>
@@ -211,7 +281,39 @@
                                                     aria-label="Close"></button>
                                             </div>
                                             <div class="modal-body">
-                                                work in progress: insert WT DPM graph here
+
+                                                <canvas id="wtDPM"></canvas>
+
+                                                <script>
+
+                                                    var xValues = ["Nov 2020", "Feb 2023"];
+                                                    var yValues = [2094, 585];
+                                                    var barColors = ["red", "green"];
+
+                                                    new Chart("wtDPM", {
+                                                        type: "bar",
+                                                        data: {
+                                                            labels: xValues,
+                                                            datasets: [{
+                                                                backgroundColor: barColors,
+                                                                data: yValues
+                                                            }]
+                                                        },
+                                                        options: {
+                                                            legend: { display: false },
+                                                            title: {
+                                                                display: true,
+                                                                text: "Reduction of 72% of Water Tearing DPM"
+                                                            },
+                                                            scales: {
+                                                                y: {
+                                                                    Min: 0,
+                                                                    suggestedMax: 20000
+                                                                }
+                                                            }
+                                                        }
+                                                    });
+                                                </script>
                                             </div>
                                         </div>
                                     </div>
