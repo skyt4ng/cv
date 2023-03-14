@@ -7,19 +7,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chart</title>
     <script src="
-    https://cdn.jsdelivr.net/npm/chart.js@4.2.1/dist/chart.umd.min.js
-    "></script>
+    https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
 </head>
 
 <body>
 
-    <canvas id="barChartLoc" height="300" width="300"></canvas>
+    <canvas id="wtDPM"></canvas>
+
     <script>
-        var barChartLocData = {
-            labels: ["January", "Feburary", "March"],
-            datasets: [{ fillColor: "lightblue", strokeColor: "blue", data: [15, 20, 35] }]
-        };
-        var mybarChartLoc = new Chart(document.getElementById("barChartLoc").getContext("2d")).Bar(barChartLocData);  
+
+        var xValues = ["Nov 2020", "Feb 2023"];
+        var yValues = [2094 , 585];
+        var barColors = ["red", "green"];
+
+        new Chart("wtDPM", {
+            type: "bar",
+            data: {
+                labels: xValues,
+                datasets: [{
+                    backgroundColor: barColors,
+                    data: yValues
+                }]
+            },
+            options: {
+                legend: { display: false },
+                title: {
+                    display: true,
+                    text: "Reduction of 72% of Water Tearing DPM"
+                },
+                scales: {
+                    y: {
+                        Min: 0,
+                        suggestedMax: 20000
+                    }
+                }
+            }
+        });
     </script>
 
 </html>
