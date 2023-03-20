@@ -21,3 +21,12 @@ function removeFadeOut(el, speed) {
         el.parentNode.removeChild(el);
     }, speed);
 }
+
+window.onscroll = function () { scrolling() };
+
+function scrolling() {
+    var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+    var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+    var scrolled = (winScroll / height) * 100;
+    document.getElementById("scrollbar").style.width = scrolled + "%";
+}
