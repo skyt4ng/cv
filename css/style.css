@@ -1,3 +1,5 @@
+/* General */
+
 body {
   background-repeat: no-repeat;
   background-size: cover;
@@ -19,6 +21,7 @@ body::-webkit-scrollbar {
   z-index: 1;
 }
 
+/* Progress Bar */
 .footer {
   position: fixed;
   bottom: 0;
@@ -26,13 +29,28 @@ body::-webkit-scrollbar {
   width: 100%;
 }
 
+/* Navbar */
+#navbar {
+  z-index: 1;
+  width: 100%;
+  overflow: hidden;
+}
 
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+
+/* Mobile */
 @media only screen and (min-width : 0px) and (max-width : 768px) {
   body {
     background-image: url('../img/bg4_crop.png');
   }
 }
 
+/* PC */
 @media only screen and (min-width: 768px) {
   body {
     background-image: url('../img/bg4.png');

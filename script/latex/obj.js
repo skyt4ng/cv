@@ -1,11 +1,11 @@
 // incoming chemical TSC
-var chemical1_tsc = 0.5 * 100;
-var chemical2_tsc = 0.5 * 100;
-var chemical3_tsc = 0.5 * 100;
-var chemical4_tsc = 0.7 * 100;
-var chemical5_tsc = 1.0 * 100;
-var chemical6_tsc = 0.25 * 100;
-var chemical7_tsc = 0.20 * 100;
+var chemical1_tsc = 0.1 * 100;
+var chemical2_tsc = 0.2 * 100;
+var chemical3_tsc = 0.3 * 100;
+var chemical4_tsc = 0.4 * 100;
+var chemical5_tsc = 0.5 * 100;
+var chemical6_tsc = 0.6 * 100;
+var chemical7_tsc = 0.7 * 100;
 
 //create balancelatex, addlatex, newlatex object
 var balancelatex = {
