@@ -1,5 +1,4 @@
 /* General */
-
 body {
   background-repeat: no-repeat;
   background-size: cover;
@@ -33,6 +32,7 @@ body::-webkit-scrollbar {
 .navbar {
   z-index: 1;
   width: 100%;
+
 }
 
 .sticky {
@@ -40,7 +40,6 @@ body::-webkit-scrollbar {
   top: 0;
   width: 100%;
 }
-
 
 /* Mobile */
 @media only screen and (min-width : 0px) and (max-width : 768px) {
