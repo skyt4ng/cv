@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>F23: Former CF</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script type="text/javascript" src="../script/2former.js"></script>
+</head>
+
+<body>
+    <div class="containter m-3">
+        <a onclick="sline(0)"><button type="button" class="btn btn-lg btn-outline-dark">L1</button></a>
+        <a onclick="sline(1)"><button type="button" class="btn btn-lg btn-outline-dark">L2</button></a>
+        <a onclick="sline(2)"><button type="button" class="btn btn-lg btn-outline-dark">L3</button></a>
+        <a onclick="sline(3)"><button type="button" class="btn btn-lg btn-outline-dark">L4</button></a>
+        <a onclick="sline(4)"><button type="button" class="btn btn-lg btn-outline-dark">L5</button></a>
+        <a onclick="sline(5)"><button type="button" class="btn btn-lg btn-outline-dark">L6</button></a>
+        <a onclick="sline(6)"><button type="button" class="btn btn-lg btn-outline-dark">L7</button></a>
+        <a onclick="sline(7)"><button type="button" class="btn btn-lg btn-outline-dark">L8</button></a>
+        <a onclick="sline(8)"><button type="button" class="btn btn-lg btn-outline-dark">L9</button></a>
+        <a onclick="sline(9)"><button type="button" class="btn btn-lg btn-outline-dark">L10</button></a>
+    </div>
+
+    <div class="containter m-3">
+        <a onclick="srow(0)"><button type="button" class="btn btn-lg btn-outline-info">ROW 1</button></a>
+        <a onclick="srow(1)"><button type="button" class="btn btn-lg btn-outline-info">ROW 2</button></a>
+        <a onclick="srow(2)"><button type="button" class="btn btn-lg btn-outline-info">ROW 3</button></a>
+        <a onclick="srow(3)"><button type="button" class="btn btn-lg btn-outline-info">ROW 4</button></a>
+    </div>
+
+    <div class="containter m-3">
+        <a onclick="ssize(0)"><button type="button" class="btn btn-lg btn btn-success">XS</button></a>
+        <a onclick="ssize(1)"><button type="button" class="btn btn-lg btn btn-danger">S</button></a>
+        <a onclick="ssize(2)"><button type="button" class="btn btn-lg btn btn-primary">M</button></a>
+        <a onclick="ssize(3)"><button type="button" class="btn btn-lg btn-warning">L</button></a>
+        <a onclick="ssize(4)"><button type="button" class="btn btn-lg btn-secondary">XL</button></a>
+    </div>
+
+    <div class="containter m-3">
+        <a onclick="ssize(5)"><button type="button" class="btn btn-lg btn btn-success">XS.s</button></a>
+        <a onclick="ssize(6)"><button type="button" class="btn btn-lg btn btn-danger">S.s</button></a>
+        <a onclick="ssize(7)"><button type="button" class="btn btn-lg btn btn-primary">M.s</button></a>
+        <a onclick="ssize(8)"><button type="button" class="btn btn-lg btn-warning">L.s</button></a>
+        <a onclick="ssize(9)"><button type="button" class="btn btn-lg btn-secondary">XL.s</button></a>
+    </div>
+
+    <div class="containter m-3">
+        <a href="#" id="link">
+            <button type="button" class="btn btn-info btn-lg btn-block">
+                <span id="showline"></span>
+                ROW <span id="showrow"></span>
+                <span id="showsize"></span>
+                SUBMIT
+            </button>
+        </a>
+    </div>
+
+
+</body>
+
+</html>

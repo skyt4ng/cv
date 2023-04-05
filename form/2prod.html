@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>F23: Production Tank Cleaning</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script type="text/javascript" src="../script/2prod.js"></script>
+
+</head>
+
+<body>
+    <div class="containter m-3">
+        <a onclick="sline(0)"><button type="button" class="btn btn-lg btn-outline-dark">L1</button></a>
+        <a onclick="sline(1)"><button type="button" class="btn btn-lg btn-outline-dark">L2</button></a>
+        <a onclick="sline(2)"><button type="button" class="btn btn-lg btn-outline-dark">L3</button></a>
+        <a onclick="sline(3)"><button type="button" class="btn btn-lg btn-outline-dark">L4</button></a>
+        <a onclick="sline(4)"><button type="button" class="btn btn-lg btn-outline-dark">L5</button></a>
+        <a onclick="sline(5)"><button type="button" class="btn btn-lg btn-outline-dark">L6</button></a>
+        <a onclick="sline(6)"><button type="button" class="btn btn-lg btn-outline-dark">L7</button></a>
+        <a onclick="sline(7)"><button type="button" class="btn btn-lg btn-outline-dark">L8</button></a>
+        <a onclick="sline(8)"><button type="button" class="btn btn-lg btn-outline-dark">L9</button></a>
+        <a onclick="sline(9)"><button type="button" class="btn btn-lg btn-outline-dark">L10</button></a>
+    </div>
+
+    <div class="containter m-3">
+        <a onclick="stank(0)"><button type="button" class="btn btn-lg btn-primary">Latex Tank 1</button></a>
+        <a onclick="stank(1)"><button type="button" class="btn btn-lg btn-primary">Latex Tank 2</button></a>
+    </div>
+
+    <div class="containter m-3">
+        <a onclick="stank(2)"><button type="button" class="btn btn-lg btn-warning">Coagulant Tank</button></a>
+        <a onclick="stank(3)"><button type="button" class="btn btn-lg btn-warning">Polymer Tank</button></a>
+    </div>
+
+
+    <div class="containter m-3">
+        <a onclick="stank(4)"><button type="button" class="btn btn-lg btn-success">Acid Tank</button></a>
+        <a onclick="stank(5)"><button type="button" class="btn btn-lg btn-success">Alkaline Tank 1</button></a>
+        <a onclick="stank(6)"><button type="button" class="btn btn-lg btn-success">Alkaline Tank 2</button></a>
+        <a onclick="stank(7)"><button type="button" class="btn btn-lg btn-success">Rinse Tank</button></a>
+    </div>
+
+
+    <div class="containter m-3">
+        <a onclick="stank(8)"><button type="button" class="btn btn-lg btn-danger">Pre-L 1</button></a>
+        <a onclick="stank(9)"><button type="button" class="btn btn-lg btn-danger">Pre-L 2</button></a>
+        <a onclick="stank(10)"><button type="button" class="btn btn-lg btn-danger">Post-L 1</button></a>
+        <a onclick="stank(11)"><button type="button" class="btn btn-lg btn-danger">Post-L 2</button></a>
+    </div>
+
+    <div class="containter m-3">
+        <a href="#" id="link">
+            <button type="button" class="btn btn-info btn-lg btn-block">
+                <span id="showline"></span>
+                <span id="showtank"></span>
+                SUBMIT
+            </button>
+        </a>
+    </div>
+
+</body>
+
+</html>
