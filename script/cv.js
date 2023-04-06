@@ -1,3 +1,18 @@
+// loader script
+document.onreadystatechange = function() {
+    if (document.readyState !== "complete") {
+        document.querySelector("body").style.visibility = "hidden";
+        document.querySelector("#lds-hourglass").style.visibility = "visible";
+    } else {
+        document.querySelector("#lds-hourglass").style.display = "none";
+        document.querySelector("body").style.visibility = "visible";
+    }
+};
+
+
+
+
+
 // Windows Onload
 window.onload = function () {
     removeFadeOut(document.getElementById('welcome'), 3000);
