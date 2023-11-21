@@ -30,8 +30,10 @@
 
 <body class="text-justify">
 
+
+    <!-- Title -->
     <div class="container">
-        <h1 id="name" class="text-center">SKY T.</h1>
+        <h1 id="name" class="text-center">SKY.</h1>
         <p class="container text-center">
             <a href="mailto:sky.t4ng@gmail.com">📧</a>
             <a href="callto:+60165449678">📞</a>
@@ -39,21 +41,28 @@
         </p>
     </div>
 
+
+    <!-- Loading Screen -->
     <div id="lds-hourglass">
     </div>
 
 
+    <!-- Welcome Screen -->
     <div id="welcome" class="container"
         style="height: 70vh;display: flex; justify-content: center; align-items: center;">
         <p class="text-center" style="font-size:10vw;vertical-align: middle;  display: table-cell;">Welcome</p>
     </div>
 
+
+    <!-- Current Datetime -->
     <div class="container">
         <p class="text-center"><span id="time"></span></p>
     </div>
 
+
+    <!-- Navigation Bar -->
     <nav id="navbar" class="navbar navbar-inverse navbar-fixed-top navbar-light bg-light">
-        <div class="container-fluid">
+        <div class="container-fluid ">
             <ul class="nav nav-pills">
                 <li class="nav-item">
                     <a class="nav-link" href="#scrollspyHeading1">CAREER</a>
@@ -75,77 +84,89 @@
     </nav>
 
 
-
+    <!-- Scrollbar -->
     <div class="row" data-bs-spy="scroll" data-bs-target="#navbar" data-bs-offset="20" class="scrollspy-example"
         tabindex="0">
-        <div class="container col-md-6">
-            <div class="container">
-                <h2 class="bg-light text-dark" id="scrollspyHeading1">PROFESSIONAL EXPERIENCE</h2>
+    </div>
 
-                <div class="container">
-                    <div class="row">
 
-                        <div class="container col-xs-12 col-md-8">
-                            <h3 class="text-primary">ENGINEER, PRODUCTION</h3>
-                            <h4> TOP GLOVE SDN BHD
-                                <small>
-                                    FACTORY 23
-                                </small>
-                            </h4>
-                        </div>
+    <!-- First Nav: Work -->
+    <div class="container">
+        <h2 class="bg-light text-dark" id="scrollspyHeading1">PROFESSIONAL EXPERIENCE</h2>
 
-                        <div class="container col-xs-6 col-md-4">
-                            <span id="duration" style="font-size:2em "></span> Days since <span>
-                                2<sup>nd</sup> November 2020</span>
-                        </div>
 
-                    </div>
+        <!-- Work 2:Jinkosolar -->
+        <div class="container">
+            <div class="row">
+                <div class="container col-xs-12 col-md-8">
+                    <h3 class="text-primary">ENGINEER, EQUIPMENT</h3>
+                    <h4> JINKO SOLAR TECHNOLOGY SDN BHD
+                        <small>
+                            PLANT M1
+                        </small>
+                    </h4>
+                </div>
+                <div class="container col-xs-6 col-md-4">
+                    <span id="duration" style="font-size:2em "></span> Days since <span>
+                        6<sup>th</sup> June 2023</span>
+                </div>
+            </div>
+        </div>
 
-                    <div class="container col-xs-12 col-md-12 col-md-offset-3 rounded">
-                        <blockquote class="blockquote">
-                            <p class="mb-0">
-                                Joined largest glove manufacturer in the world, as Engineer position in Production
-                                department,
-                                specializing in manufacturing, supply and distribution of polymer powder-free textured
-                                gloves.
-                            </p>
-                        </blockquote>
-                    </div>
 
-                    <div>
-                        <p> Played major role in core manufacturing department as:
-                        </p>
-                    </div>
-
+        <!-- Work 2:Topglove -->
+        <div class="container">
+            <div class="row">
+                <div class="container col-xs-12 col-md-8">
+                    <h3 class="text-primary">ENGINEER, PRODUCTION</h3>
+                    <h4> TOP GLOVE SDN BHD
+                        <small>
+                            FACTORY 23
+                        </small>
+                    </h4>
+                </div>
+                <div class="container col-xs-6 col-md-4">
+                    <span style="font-size:2em "></span> 919 Days from <span>
+                        2<sup>nd</sup> November 2020</span>
                 </div>
             </div>
 
+
+            <!-- Work 2:Topglove Description -->
+            <div class="container col-xs-12 col-md-12 col-md-offset-3 rounded">
+                <blockquote class="blockquote">
+                    <p class="mb-0">
+                        Joined largest glove manufacturer in the world, as Engineer position in
+                        Production
+                        department,
+                        specializing in manufacturing, supply and distribution of polymer powder-free
+                        textured
+                        gloves.
+                    </p>
+                </blockquote>
+            </div>
+
+
+            <!-- Work 2:Topglove Engineer -->
             <div class="container">
-
                 <h5 class="container text-secondary">As an Engineer</h5>
-
                 <ol class="list-group list-group-item-action list-group-numbered">
-
-                    <li class="list-group-item">Reported to Manufacturing Managers and Senior Engineers in executing
+                    <li class="list-group-item">Reported to Manufacturing Managers and Senior Engineers in
+                        executing
                         engineering
                         improvement projects, including:
 
                         <div class="row" style="text-align:center; margin:10px;">
-
                             <div class="col-6 col-md-3 bg-white text-dark border border-info rounded">
-
                                 <img src="img/polymer_topup_timer.jpg"
                                     onmouseover="this.src='img/polymer_topup_internal.jpg'"
                                     onmouseout="this.src='img/polymer_topup_timer.jpg'"
                                     class="img-thumbnail img-responsive ">
-
                                 <button type="button" class="btn btn-light" data-bs-toggle="modal"
                                     data-bs-target="#polymer">
                                     Polymer Timer Mini
                                     Pump
                                 </button>
-
-
                                 <div class="modal fade" id="polymer" tabindex="-1" aria-labelledby="polymer"
                                     aria-hidden="true">
                                     <div class="modal-dialog modal-dialog-centered">
@@ -156,15 +177,11 @@
                                                     aria-label="Close"></button>
                                             </div>
                                             <div class="modal-body">
-
                                                 <canvas id="dbDPM"></canvas>
-
                                                 <script>
-
                                                     var xValues = ["Nov 2020", "Feb 2023"];
                                                     var yValues = [31004, 13640];
                                                     var barColors = ["red", "green"];
-
                                                     new Chart("dbDPM", {
                                                         type: "bar",
                                                         data: {
@@ -192,14 +209,6 @@
                                                                     }
                                                                 }]
                                                             }
-
-
-
-
-
-
-
-
                                                         }
                                                     });
                                                 </script>
@@ -210,17 +219,13 @@
                             </div>
 
                             <div class="col-6 col-md-3 bg-white text-dark border border-info rounded">
-
                                 <img src="img/airreceiver.jpg" onmouseover="this.src='img/airreceiver_internal.jpg'"
                                     onmouseout="this.src='img/airreceiver.jpg'" class="img-thumbnail img-responsive">
-
                                 <button type="button" class="btn btn-light" data-bs-toggle="modal"
                                     data-bs-target="#airreceiver">
                                     Air Receiver Pressure
                                     Monitoring
                                 </button>
-
-
                                 <div class="modal fade" id="airreceiver" tabindex="-1" aria-labelledby="airreceiver"
                                     aria-hidden="true">
                                     <div class="modal-dialog modal-dialog-centered">
@@ -241,14 +246,11 @@
                             </div>
 
                             <div class="col-6 col-md-3 bg-white text-dark border border-info rounded">
-
                                 <img src="img/magnet.jpg" class="img-thumbnail img-responsive">
-
                                 <button type="button" class="btn btn-light" data-bs-toggle="modal"
                                     data-bs-target="#magnetholder">
                                     Magnetic Holder Dirt Removal
                                 </button>
-
                                 <div class="modal fade" id="magnetholder" tabindex="-1"
                                     aria-labelledby="exampleModalLabel" aria-hidden="true">
                                     <div class="modal-dialog modal-dialog-centered">
@@ -259,15 +261,11 @@
                                                     aria-label="Close"></button>
                                             </div>
                                             <div class="modal-body">
-
                                                 <canvas id="dirtDPM"></canvas>
-
                                                 <script>
-
                                                     var xValues = ["Nov 2020", "Feb 2023"];
                                                     var yValues = [21024, 11448];
                                                     var barColors = ["red", "green"];
-
                                                     new Chart("dirtDPM", {
                                                         type: "bar",
                                                         data: {
@@ -292,7 +290,6 @@
                                                         }
                                                     });
                                                 </script>
-
                                             </div>
                                         </div>
                                     </div>
@@ -300,15 +297,11 @@
                             </div>
 
                             <div class="col-6 col-md-3 bg-white text-dark border border-info rounded">
-
                                 <img src="img/floater.jpg" class="img-thumbnail img-responsive">
-
                                 <button type="button" class="btn btn-light" data-bs-toggle="modal"
                                     data-bs-target="#alkaline">
                                     Alkaline Tanks Level Floater
                                 </button>
-
-
                                 <div class="modal fade" id="alkaline" tabindex="-1" aria-labelledby="alkaline"
                                     aria-hidden="true">
                                     <div class="modal-dialog modal-dialog-centered">
@@ -319,15 +312,11 @@
                                                     aria-label="Close"></button>
                                             </div>
                                             <div class="modal-body">
-
                                                 <canvas id="wtDPM"></canvas>
-
                                                 <script>
-
                                                     var xValues = ["Nov 2020", "Feb 2023"];
                                                     var yValues = [2094, 585];
                                                     var barColors = ["red", "green"];
-
                                                     new Chart("wtDPM", {
                                                         type: "bar",
                                                         data: {
@@ -356,11 +345,8 @@
                                         </div>
                                     </div>
                                 </div>
-
                             </div>
-
                         </div>
-
                     </li>
 
                     <li class="list-group-item">
@@ -430,7 +416,9 @@
 
                     <li class="list-group-item">
                         Designed Human Machine Interface UI with Delta DOP107CV, to work with PLC
-                        projects, ex: improvement of Polymer Timer Mini Pump Project by eliminating physical timer and
+                        projects, ex: improvement of Polymer Timer Mini Pump Project by eliminating physical
+                        timer
+                        and
                         relay
                         components.
 
@@ -445,8 +433,12 @@
                         </div>
 
 
-                    <li class="list-group-item">Converted production board to smartboard TV accessible from anywhere by
-                        self-written HTML and CSS language with Google Sheet Embedded, with paper usage eliminated and
+                    <li class="list-group-item">Converted production board to smartboard TV accessible from
+                        anywhere
+                        by
+                        self-written HTML and CSS language with Google Sheet Embedded, with paper usage
+                        eliminated
+                        and
                         respective declaration using Google Form, including
 
                         <div class="row" style="text-align:center; margin:10px;">
@@ -513,63 +505,77 @@
                         </div>
                     </li>
 
-                    <li class="list-group-item">In-charged of all Intel NUC PCs in production floor and SCADA PC, by
+                    <li class="list-group-item">In-charged of all Intel NUC PCs in production floor and SCADA
+                        PC, by
                         removing dust and regular software inspection and maintenance.</li>
 
-                    <li class="list-group-item">PIC for maintaining production company phones, through spotchecking apps
+                    <li class="list-group-item">PIC for maintaining production company phones, through
+                        spotchecking
+                        apps
                         usage, location history, data usage or any misuse other than work purpose.</li>
 
                     <li class="list-group-item">Maintained regularly of production Google accounts and PowerApps
-                        account, including files arrangement and improvement based on feedback from end-users.</li>
+                        account, including files arrangement and improvement based on feedback from end-users.
+                    </li>
                 </ol>
             </div>
 
 
+            <!-- Work 2:Topglove linepic -->
             <div class="container">
                 <h5 class="container text-secondary">As a Manufacturing Line PIC</h5>
-
                 <ol class="list-group list-group-item-action list-group-numbered">
-
                     <li class="list-group-item">Maximized output of production line to achieve target output KPI
-                        setting, by reducing scrap percentage from <span class="fw-bold">2.29% (Nov 20)</span> to <span
-                            class="fw-bold">0.90% (Apr 23)</span>.
+                        setting, by reducing scrap percentage from <span class="fw-bold">2.29% (Nov 20)</span>
+                        to
+                        <span class="fw-bold">0.90% (Apr 23)</span>.
                     </li>
-                    <li class="list-group-item">Carried out adhoc troubleshooting with supervisors and leaders on glove
+                    <li class="list-group-item">Carried out adhoc troubleshooting with supervisors and leaders
+                        on
+                        glove
                         and
                         defects on-site to ensure good quality products.</li>
-                    <li class="list-group-item">Conducted production whiteboard planning with major department (i.e.
+                    <li class="list-group-item">Conducted production whiteboard planning with major department
+                        (i.e.
                         Compounding, Packing) weekly on Monday or on adhoc discussion urgent matters.</li>
-                    <li class="list-group-item">Worked with Former department to maintain ceramic formers (glove dipping
+                    <li class="list-group-item">Worked with Former department to maintain ceramic formers (glove
+                        dipping
                         rice
                         bowl) at 99.0% cleanliness.</li>
-                    <li class="list-group-item">Focused Total Preventative Maintenance (TPM) with Maintenance department
+                    <li class="list-group-item">Focused Total Preventative Maintenance (TPM) with Maintenance
+                        department
                         to
-                        improve and achieve <span class="fw-bold">93.0% uptime</span> production line (December 2022).
+                        improve and achieve <span class="fw-bold">93.0% uptime</span> production line (December
+                        2022).
                     </li>
-                    <li class="list-group-item">Controlled manufacturing cost by carton (CPC) by boosting output while
+                    <li class="list-group-item">Controlled manufacturing cost by carton (CPC) by boosting output
+                        while
                         focused
                         in reducing consumption of raw material (Latex), cleaning reagent and natural gas.</li>
-                    <li class="list-group-item">Performed and lead mass scale trial run at production line with Research
+                    <li class="list-group-item">Performed and lead mass scale trial run at production line with
+                        Research
                         &
                         Development (R&D) team.
                     </li>
-                    <li class="list-group-item">On-call during night, weekend and Public Holiday for production line
+                    <li class="list-group-item">On-call during night, weekend and Public Holiday for production
+                        line
                         breakdown
                         and arrangement, reported to managers.</li>
                 </ol>
             </div>
 
+
+            <!-- Work 2:Topglove staff -->
             <div class="container">
                 <h5 class="container text-secondary">As a Production Staff</h5>
-
                 <ol class="list-group list-group-item-action list-group-numbered">
-
-                    <li class="list-group-item">Ensured quality product output to meet AQL and International Standards:
+                    <li class="list-group-item">Ensured quality product output to meet AQL and International
+                        Standards:
                         ASTM
-                        D3578 Standard Specification for Rubber Examination Gloves, EN455 European Standard for Medical
+                        D3578 Standard Specification for Rubber Examination Gloves, EN455 European Standard for
+                        Medical
                         Gloves.
                     </li>
-
                     <li class="list-group-item">Maintained compliance of production department to meet:
                         <ol>
                             <li class="list-group-item">ISO 9001 Quality Management System (QMS)</li>
@@ -577,313 +583,327 @@
                             <li class="list-group-item">ISO 14001 Environmental Management System (EMS)</li>
                         </ol>
                     </li>
-
-                    <li class="list-group-item">Complied with ISO 45001 Occupational Health and Safety Management
+                    <li class="list-group-item">Complied with ISO 45001 Occupational Health and Safety
+                        Management
                         System,
-                        including renewing Hazard & Operability (HAZOP) study for production chemicals and equipments,
+                        including renewing Hazard & Operability (HAZOP) study for production chemicals and
+                        equipments,
                         reporting
                         Unsafe Act Unsafe Condition (UAUC) to Safety Department.</li>
-
-                    <li class="list-group-item">Good exposure to Emergency Response and First Aid Training, played a
+                    <li class="list-group-item">Good exposure to Emergency Response and First Aid Training,
+                        played a
                         part of
                         Factory Emergency Response Team.</li>
-
-                    <li class="list-group-item">Key person for departmental in Factory Customer Audit (Plant audit,
+                    <li class="list-group-item">Key person for departmental in Factory Customer Audit (Plant
+                        audit,
                         On-site
                         Inspection), Quality
-                        Audit (SIRIM, ISO) and Social Compliance Audit (BSCI, BSC) for documentation preparation and
+                        Audit (SIRIM, ISO) and Social Compliance Audit (BSCI, BSC) for documentation preparation
+                        and
                         plant
                         tour.
                     </li>
-
                     <li class="list-group-item">Worked as people manager to maintain workers' welfare, such as
                         attendance,
                         OT
                         arrangement during Public
                         Holiday.
                     </li>
-
-                    <li class="list-group-item">Quality analysis and improvement using FMEA, 8D, Fishbone (Ishikawa),
+                    <li class="list-group-item">Quality analysis and improvement using FMEA, 8D, Fishbone
+                        (Ishikawa),
                         Five
                         Whys,
                         Poka Yoke, maintaining 5S principle at workstation.
                     </li>
-
-                    <li class="list-group-item">Assisted in Operational Qualification (OQ) and Performance Qualification
+                    <li class="list-group-item">Assisted in Operational Qualification (OQ) and Performance
+                        Qualification
                         (PQ)
                         validation of production line yearly.</li>
-
-                    <li class="list-group-item">Prepared CAPAR report and carried out corrective action, improved
+                    <li class="list-group-item">Prepared CAPAR report and carried out corrective action,
+                        improved
                         customer satisfaction by reduced customer complaint from 39
                         complaints
                         (2019) to 13 complaints (2022).</li>
                 </ol>
             </div>
         </div>
-
-        <div class="container col-md-6">
-            <div class="container" id="scrollspyHeading2">
-                <h2 class="bg-light text-dark">SKILLS</h2>
-
-                <p class="display-3">Engineering</p>
-
-                <ol class="list-group list-group-item-action list-group-numbered">
-                    <li class="list-group-item">
-                        Keyence KV Studio v11.G</li>
-                    <li class="list-group-item">
-                        Siemens TIA Portal V16</li>
-                    <li class="list-group-item">
-                        Delta DOPSoft 4.00.16</li>
-                    <li class="list-group-item">
-                        Adobe AutoCAD</li>
-                </ol>
-
-                <p class="display-3">Deskwork</p>
-
-                <ol class="list-group list-group-item-action list-group-numbered">
-
-                    <li class="list-group-item">
-                        Microsoft Office Word, Excel, Powerpoint</li>
-                    <li class="list-group-item">
-                        Google Docs, Sheet, Form</li>
-                    <li class="list-group-item">
-                        Microsoft PowerBI</li>
-                </ol>
-
-                <p class="display-3">Information Technology (IT)</p>
-                <ol class="list-group list-group-item-action list-group-numbered">
-
-                    <li class="list-group-item">
-                        PC Hardware Assembly</li>
-                    <li class="list-group-item">
-                        PC Format and Windows Installation</li>
-                    <li class="list-group-item">
-                        Windows Hyper-V</li>
-                </ol>
-
-                <p class="display-3">Coding</p>
-                <ol class="list-group list-group-item-action list-group-numbered">
-                    <li class="list-group-item">
-                        Github Workflow</li>
-                    <li class="list-group-item">
-                        Visual Studio Code</li>
-                    <li class="list-group-item">
-                        HTML language</li>
-                    <li class="list-group-item">
-                        Front-End JavaScript (Bootstrap)</li>
-                    <li class="list-group-item">
-                        Server-End JavaScript (Node.js)</li>
-                </ol>
-
-                <p class="display-3">Adobe Suite</p>
-                <ol class="list-group list-group-item-action list-group-numbered">
-                    <li class="list-group-item">
-                        Adobe Illustrator</li>
-                    <li class="list-group-item">
-                        Adobe Premier Pro</li>
-                </ol>
-            </div>
-            <br>
-
-            <div class="container" id="scrollspyHeading3">
-                <h2 class="bg-light text-dark">LANGUAGE</h2>
-                <div class="container table-responsive">
-                    <table class="table table-striped table-hover table-light table-bordered">
-                        <tr>
-                            <th scope="col">#</th>
-                            <th>Language</th>
-                            <th>Listening</th>
-                            <th>Speaking</th>
-                            <th>Writing</th>
-                            <th>Remarks</th>
-                        </tr>
-                        <tr>
-                            <th scope="row">1</th>
-                            <td>ENGLISH</td>
-                            <td><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                                    class="bi bi-check" viewBox="0 0 16 16">
-                                    <path
-                                        d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z" />
-                                </svg></td>
-                            <td><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                                    class="bi bi-check" viewBox="0 0 16 16">
-                                    <path
-                                        d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z" />
-                                </svg></td>
-                            <td><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                                    class="bi bi-check" viewBox="0 0 16 16">
-                                    <path
-                                        d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z" />
-                                </svg></td>
-                            <td>MUET BAND 5</td>
-                        </tr>
-
-                        <tr>
-                            <th scope="row">2</th>
-                            <td>MALAY</td>
-                            <td><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                                    class="bi bi-check" viewBox="0 0 16 16">
-                                    <path
-                                        d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z" />
-                                </svg></td>
-                            <td><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                                    class="bi bi-check" viewBox="0 0 16 16">
-                                    <path
-                                        d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z" />
-                                </svg></td>
-                            <td><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                                    class="bi bi-check" viewBox="0 0 16 16">
-                                    <path
-                                        d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z" />
-                                </svg></td>
-                            <td></td>
-                        </tr>
-
-                        <tr>
-                            <th scope="row">3</th>
-                            <td>CHINESE</td>
-                            <td><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                                    class="bi bi-check" viewBox="0 0 16 16">
-                                    <path
-                                        d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z" />
-                                </svg></td>
-                            <td><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                                    class="bi bi-check" viewBox="0 0 16 16">
-                                    <path
-                                        d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z" />
-                                </svg></td>
-                            <td><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                                    class="bi bi-check" viewBox="0 0 16 16">
-                                    <path
-                                        d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z" />
-                                </svg></td>
-                            <td></td>
-                        </tr>
-
-                        <tr>
-                            <th scope="row">4</th>
-                            <td>JAPANESE</td>
-                            <td><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                                    class="bi bi-check" viewBox="0 0 16 16">
-                                    <path
-                                        d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z" />
-                                </svg></td>
-                            <td><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                                    class="bi bi-check" viewBox="0 0 16 16">
-                                    <path
-                                        d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z" />
-                                </svg></td>
-                            <td><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
-                                    class="bi bi-check" viewBox="0 0 16 16">
-                                    <path
-                                        d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z" />
-                                </svg></td>
-                            <td>JLPT N3</td>
-                        </tr>
-                    </table>
-                </div>
-            </div>
-
-            <br>
-
-            <div class="container" id="scrollspyHeading4">
-                <h2 class="bg-light text-dark">EDUCATION IN A GLANCE</h2>
-
-                <ol>
-                    <li class="list-group-item">
-                        <p class="display-5">Universiti Sains Malaysia (USM) Engineering Campus</p>
-                        <p class="display-6">Bachelor of Chemical Engineering with Honors</p>
-                        <ol class="list-group list-group-item-action">
-                            <li class="list-group-item">Final Year Project: Adsorption of Heavy Metal
-                                Ion
-                                using
-                                Activated Carbon
-                            <li class="list-group-item">Plant Design Analysis and Operation: Production
-                                of
-                                Methyl
-                                Tert-Butyl
-                                Ether (MTBE)
-                            </li>
-                            <li class="list-group-item">
-                                <ol>
-                                    <li>
-                                        Membrane Science and Technology, Advance Control
-                                        System for
-                                        Industrial
-                                        Process
-                                    </li>
-                                    <li>
-                                        Nanomaterial in Chemical Engineering
-                                    </li>
-                                    <li>Plant Safety</li>
-                                    <li>Reactor
-                                        Design
-                                        and
-                                        Analysis</li>
-                                    <li>
-                                        Transport Phenomena</li>
-                                    <li>Process Dynamics and Control, Mass and Heat
-                                        Transfer</li>
-                                    <li>
-                                        Mass and
-                                        Energy
-                                        Balance</li>
-                                    <li>Separation Processes</li>
-                                    <li>Thermodynamics</li>
-                                    <li>Fluid Flow</li>
-                                </ol>
-                            </li>
-                        </ol>
-                    <li class="list-group-item">
-                        <p class="display-5">St. Michael's Institution (SMI), Ipoh</p>
-                        <ol class="list-group list-group-item-action">
-                            <li class="list-group-item">
-                                STPM: Science Physics Stream</li>
-                        </ol>
-                    </li>
-                    <li class="list-group-item">
-                        <p class="display-5">SMK Aminuddin Baki Chemor</p>
-                        <ol class="list-group list-group-item-action">
-                            <li class="list-group-item">
-                                SPM: Science Stream + Accounting</li>
-                        </ol>
-                    </li>
-                </ol>
-            </div>
-
-            <br>
-            <div class="container" id="scrollspyHeading5">
-                <h5 class="bg-light text-dark">REFERRAL</h5>
-                <table class="table table-striped table-hover table-light table-bordered">
-                    <tr>
-                        <td>Mr. Elson Lee Kah Choon</td>
-                        <td>Manager, Manufacturing</td>
-                        <td><a href="callto:+60162328752">📞</a></td>
-                    </tr>
-
-                    <tr>
-                        <td>Ms. Carmen Liaw Ching Wen</td>
-                        <td>Chemist II, Production</td>
-                        <td><a href="callto:+60103710057">📞</a></td>
-                    </tr>
-
-                    <tr>
-                        <td>Ms. Shasikaala A/P Letchimanan</td>
-                        <td>Executive II, Production</td>
-                        <td><a href="callto:+60137780725">📞</a></td>
-                    </tr>
-                </table>
-            </div>
-        </div>
     </div>
 
+    <!-- Second Nav: Skills -->
+    <div class="container">
+        <h2 class="bg-light text-dark" id="scrollspyHeading2">SKILLS</h2>
+
+
+        <!-- Second Nav: Skills Engineering-->
+        <p class="display-3">Engineering</p>
+        <ol class="list-group list-group-item-action list-group-numbered">
+            <li class="list-group-item">
+                Keyence KV Studio v11.G</li>
+            <li class="list-group-item">
+                Siemens TIA Portal V16</li>
+            <li class="list-group-item">
+                Delta DOPSoft 4.00.16</li>
+            <li class="list-group-item">
+                Adobe AutoCAD</li>
+        </ol>
+
+
+        <!-- Second Nav: Skills Deskwork-->
+        <p class="display-3">Deskwork</p>
+        <ol class="list-group list-group-item-action list-group-numbered">
+
+            <li class="list-group-item">
+                Microsoft Office Word, Excel, Powerpoint</li>
+            <li class="list-group-item">
+                Google Docs, Sheet, Form</li>
+            <li class="list-group-item">
+                Microsoft PowerBI</li>
+        </ol>
+
+
+        <!-- Second Nav: Skills IT-->
+        <p class="display-3">Information Technology (IT)</p>
+        <ol class="list-group list-group-item-action list-group-numbered">
+
+            <li class="list-group-item">
+                PC Hardware Assembly</li>
+            <li class="list-group-item">
+                PC Format and Windows Installation</li>
+            <li class="list-group-item">
+                Windows Hyper-V</li>
+        </ol>
+
+
+        <!-- Second Nav: Skills Coding-->
+        <p class="display-3">Coding</p>
+        <ol class="list-group list-group-item-action list-group-numbered">
+            <li class="list-group-item">
+                Github Workflow</li>
+            <li class="list-group-item">
+                Visual Studio Code</li>
+            <li class="list-group-item">
+                HTML language</li>
+            <li class="list-group-item">
+                Front-End JavaScript (Bootstrap)</li>
+            <li class="list-group-item">
+                Server-End JavaScript (Node.js)</li>
+        </ol>
+
+
+        <!-- Second Nav: Skills Adobe-->
+        <p class="display-3">Adobe Suite</p>
+        <ol class="list-group list-group-item-action list-group-numbered">
+            <li class="list-group-item">
+                Adobe Illustrator</li>
+            <li class="list-group-item">
+                Adobe Premier Pro</li>
+        </ol>
+    </div>
+    <br>
+
+
+
+    <!-- Third Nav: Language -->
+    <div class="container">
+        <h2 class="bg-light text-dark" id="scrollspyHeading3">LANGUAGE</h2>
+        <div class="container table-responsive">
+            <table class="table table-striped table-hover table-light table-bordered">
+                <tr>
+                    <th scope="col">#</th>
+                    <th>Language</th>
+                    <th>Listening</th>
+                    <th>Speaking</th>
+                    <th>Writing</th>
+                    <th>Remarks</th>
+                </tr>
+                <tr>
+                    <th scope="row">1</th>
+                    <td>ENGLISH</td>
+                    <td><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-check" viewBox="0 0 16 16">
+                            <path
+                                d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z" />
+                        </svg></td>
+                    <td><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-check" viewBox="0 0 16 16">
+                            <path
+                                d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z" />
+                        </svg></td>
+                    <td><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-check" viewBox="0 0 16 16">
+                            <path
+                                d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z" />
+                        </svg></td>
+                    <td>MUET BAND 5</td>
+                </tr>
+
+                <tr>
+                    <th scope="row">2</th>
+                    <td>MALAY</td>
+                    <td><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-check" viewBox="0 0 16 16">
+                            <path
+                                d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z" />
+                        </svg></td>
+                    <td><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-check" viewBox="0 0 16 16">
+                            <path
+                                d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z" />
+                        </svg></td>
+                    <td><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-check" viewBox="0 0 16 16">
+                            <path
+                                d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z" />
+                        </svg></td>
+                    <td></td>
+                </tr>
+
+                <tr>
+                    <th scope="row">3</th>
+                    <td>CHINESE</td>
+                    <td><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-check" viewBox="0 0 16 16">
+                            <path
+                                d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z" />
+                        </svg></td>
+                    <td><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-check" viewBox="0 0 16 16">
+                            <path
+                                d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z" />
+                        </svg></td>
+                    <td><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-check" viewBox="0 0 16 16">
+                            <path
+                                d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z" />
+                        </svg></td>
+                    <td></td>
+                </tr>
+
+                <tr>
+                    <th scope="row">4</th>
+                    <td>JAPANESE</td>
+                    <td><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-check" viewBox="0 0 16 16">
+                            <path
+                                d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z" />
+                        </svg></td>
+                    <td><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-check" viewBox="0 0 16 16">
+                            <path
+                                d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z" />
+                        </svg></td>
+                    <td><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                            class="bi bi-check" viewBox="0 0 16 16">
+                            <path
+                                d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z" />
+                        </svg></td>
+                    <td>JLPT N3</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <br>
+
+
+    <!-- Forth Nav: Edu -->
+    <div class="container">
+        <h2 class="bg-light text-dark" id="scrollspyHeading4">EDUCATION IN A GLANCE</h2>
+        <ol>
+            <li class="list-group-item">
+                <p class="display-5">Universiti Sains Malaysia (USM) Engineering Campus</p>
+                <p class="display-6">Bachelor of Chemical Engineering with Honors</p>
+                <ol class="list-group list-group-item-action">
+                    <li class="list-group-item">Final Year Project: Adsorption of Heavy Metal
+                        Ion
+                        using
+                        Activated Carbon
+                    <li class="list-group-item">Plant Design Analysis and Operation: Production
+                        of
+                        Methyl
+                        Tert-Butyl
+                        Ether (MTBE)
+                    </li>
+                    <li class="list-group-item">
+                        <ol>
+                            <li>
+                                Membrane Science and Technology, Advance Control
+                                System for
+                                Industrial
+                                Process
+                            </li>
+                            <li>
+                                Nanomaterial in Chemical Engineering
+                            </li>
+                            <li>Plant Safety</li>
+                            <li>Reactor
+                                Design
+                                and
+                                Analysis</li>
+                            <li>
+                                Transport Phenomena</li>
+                            <li>Process Dynamics and Control, Mass and Heat
+                                Transfer</li>
+                            <li>
+                                Mass and
+                                Energy
+                                Balance</li>
+                            <li>Separation Processes</li>
+                            <li>Thermodynamics</li>
+                            <li>Fluid Flow</li>
+                        </ol>
+                    </li>
+                </ol>
+            <li class="list-group-item">
+                <p class="display-5">St. Michael's Institution (SMI), Ipoh</p>
+                <ol class="list-group list-group-item-action">
+                    <li class="list-group-item">
+                        STPM: Science Physics Stream</li>
+                </ol>
+            </li>
+            <li class="list-group-item">
+                <p class="display-5">SMK Aminuddin Baki Chemor</p>
+                <ol class="list-group list-group-item-action">
+                    <li class="list-group-item">
+                        SPM: Science Stream + Accounting</li>
+                </ol>
+            </li>
+        </ol>
+    </div>
+    <br>
+
+
+    <!-- Fifth Nav: Referral -->
+    <div class="container">
+        <h5 class="bg-light text-dark" id="scrollspyHeading5">REFERRAL</h5>
+        <table class="table table-striped table-hover table-light table-bordered">
+            <tr>
+                <td>Mr. Elson Lee Kah Choon</td>
+                <td>Manager, Manufacturing</td>
+                <td><a href="callto:+60162328752">📞</a></td>
+            </tr>
+            <tr>
+                <td>Ms. Carmen Liaw Ching Wen</td>
+                <td>Chemist II, Production</td>
+                <td><a href="callto:+60103710057">📞</a></td>
+            </tr>
+
+            <tr>
+                <td>Ms. Shasikaala A/P Letchimanan</td>
+                <td>Executive II, Production</td>
+                <td><a href="callto:+60137780725">📞</a></td>
+            </tr>
+        </table>
+    </div>
+
+
+
+    <!-- Progressbar -->
     <div class="footer">
         <div class="progress">
             <div class="progress-bar" role="progressbar" id="scrollbar">
             </div>
         </div>
     </div>
-
 </body>
 
 </html>

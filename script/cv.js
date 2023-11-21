@@ -15,7 +15,7 @@ document.onreadystatechange = function() {
 
 // Windows Onload
 window.onload = function () {
-    removeFadeOut(document.getElementById('welcome'), 3000);
+    removeFadeOut(document.getElementById('welcome'), 1000);
     datetime();
 }
 
