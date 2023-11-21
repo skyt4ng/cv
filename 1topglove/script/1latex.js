@@ -67,26 +67,26 @@ function repeat() {
 
 // New type latex, write latex factor and filler phr
 function NUSA() {
-    addlatex.latex_factor = 86;
-    addlatex.chemical4_phr = 49;
-    addlatex.chemical1_phr = 0.20;
-    addlatex.chemical2_phr = 1.35;
-    addlatex.chemical3_phr = 0.60;
-    addlatex.chemical5_phr = 0.01;
-    addlatex.chemical6_phr = 0.07;
-    addlatex.chemical7_phr = 0.05;
+    addlatex.latex_factor = 90;
+    addlatex.chemical4_phr = 50;
+    addlatex.chemical1_phr = 0.21;
+    addlatex.chemical2_phr = 0.22;
+    addlatex.chemical3_phr = 0.23;
+    addlatex.chemical5_phr = 0.24;
+    addlatex.chemical6_phr = 0.25;
+    addlatex.chemical7_phr = 0.26;
     repeat();
 }
 
 function USA() {
-    addlatex.latex_factor = 76;
-    addlatex.chemical4_phr = 23;
-    addlatex.chemical1_phr = 0.22;
-    addlatex.chemical2_phr = 2.9;
-    addlatex.chemical3_phr = 0.2
-    addlatex.chemical5_phr = 0.01;
-    addlatex.chemical6_phr = 0.07;
-    addlatex.chemical7_phr = 0.05;
+    addlatex.latex_factor = 80;
+    addlatex.chemical4_phr = 30;
+    addlatex.chemical1_phr = 0.21;
+    addlatex.chemical2_phr = 0.22;
+    addlatex.chemical3_phr = 0.23;
+    addlatex.chemical5_phr = 0.24;
+    addlatex.chemical6_phr = 0.25;
+    addlatex.chemical7_phr = 0.26;
     repeat();
 }
 
@@ -94,32 +94,32 @@ function USA() {
 // New type latex, write latex tsc
 function NUSAlow() {
     NUSA();
-    addlatex.latex_tsc = 26.5;
+    addlatex.latex_tsc = 30;
 }
 
 function NUSAnormal() {
     NUSA();
-    addlatex.latex_tsc = 28.5;
+    addlatex.latex_tsc = 31;
 }
 
 function NUSAhigh() {
     NUSA();
-    addlatex.latex_tsc = 29.5;
+    addlatex.latex_tsc = 32;
 }
 
 function USA1high() {
     NUSA();
-    addlatex.latex_tsc = 25.0;
+    addlatex.latex_tsc = 33;
 }
 
 function USA1normal() {
     USA();
-    addlatex.latex_tsc = 22.0;
+    addlatex.latex_tsc = 34;
 }
 
 function USA1low() {
     USA();
-    addlatex.latex_tsc = 21.0;
+    addlatex.latex_tsc = 35;
 
 }
 
