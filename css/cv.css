@@ -74,18 +74,15 @@ body::-webkit-scrollbar {
 }
 
 
-
-
-
 /* Mobile */
-@media only screen and (min-width : 0px) and (max-width : 768px) {
+/*@media only screen and (min-width : 0px) and (max-width : 768px) {
   body {
     background-image: url('../img/bg4_crop.png');
   }
 }
 
 /* PC */
-@media only screen and (min-width: 768px) {
+/*@media only screen and (min-width: 768px) {
   body {
     background-image: url('../img/bg4.png');
   }
