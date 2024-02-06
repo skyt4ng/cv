@@ -73,6 +73,13 @@ body::-webkit-scrollbar {
   }
 }
 
+#navbar  {
+  text-align: center;
+}
+
+#navbar {
+  display: inline-block;
+}
 
 /* Mobile */
 /*@media only screen and (min-width : 0px) and (max-width : 768px) {
@@ -88,8 +95,3 @@ body::-webkit-scrollbar {
   }
 }
 */
-
-#nav ul {
-    display: inline-block;
-    list-style-type: none;
-}
