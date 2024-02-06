@@ -87,3 +87,9 @@ body::-webkit-scrollbar {
     background-image: url('../img/bg4.png');
   }
 }
+*/
+
+#nav ul {
+    display: inline-block;
+    list-style-type: none;
+}
